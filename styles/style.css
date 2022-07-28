@@ -1,6 +1,8 @@
 .navigation {
 	display: inline-block;
-	margin: 20px;
+	margin-top: 17px;
+	margin-left: 20px;
+	margin-right: 150px;
 	padding-bottom: 18px;
 }
 
@@ -25,10 +27,14 @@
 
 .nav-item {
 	color: #959798;
+	font-size: 11px;
+	font-weight: bold;
 }
 
 .logo {
 	color: #FA6980;
+	font-size: 13px;
+	font-weight: bold;
 	vertical-align: middle;
 }
 .active {
@@ -38,6 +44,7 @@
 .header-fixed {
 	position: fixed;
 	width: 100%;
+	z-index: 20;
 }
 .section1 {
 	padding-top: 50px;
@@ -62,6 +69,7 @@
 	width: 280px;
 	margin: 66px auto;
 	color: #A6ADB4;
+	font-size: 13px;
 }
 
 .h2_1 {
@@ -99,7 +107,7 @@
 }
 
 .image2 {
-	margin-bottom: 40px;
+	margin-top: 40px;
 }
 
 .image3 {
@@ -116,11 +124,60 @@
 	display: inline-block;
 	position: relative;
 }
+
 .image-text1 {
-	display: inline-block;
 	position: absolute;
-	top: 28;
-	left: 40;
+	top: 28px;
+	left: 40px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.wraper2 {
+	display: inline-block;
+	position: relative;
+}
+.image-text2 {
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+	color: #fff ;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+footer {
+	background: #A6ADB4;
+}
+
+.navigation1 {
+	display: inline-block;
+	width: 486.09px;
+	margin-top: 56px;
+	margin-bottom: 60px;
+	background: yellow;
+	/*padding-left: 143px;*/
+
+}
+
+
+.nav-ul1 {
+	display: inline-block;
+	vertical-align: top;
+	/*width: 79px;
+	padding: 0 auto;*/
+}
+/*.nav-li1 {
+	padding: 0 auto;
+}*/
+
+.logo1 {
+	vertical-align: top;
+	margin-right: 89.1px;
+
 }
 body {
 	height: 1000px;
