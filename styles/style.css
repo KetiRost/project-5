@@ -60,6 +60,7 @@
 	width: 360px;
 	display: inline-block;
 	background: #fff;
+	position: relative;
 }
 .box1_margin {
 	margin-left: 40px;
@@ -78,11 +79,11 @@
 	margin-bottom: 40px;
 }
 
-/*.container {
-	display: inline-block;
+.container {
+	/*display: inline-block;*/
 	width: 1160px;
 	margin: 0 auto;
-	}*/
+	}
 
 .h2_2 {
 	font-size: 24px;
@@ -96,7 +97,6 @@
 	vertical-align: top;
 	margin-right: 40px;
 	margin-bottom: 37px;
-/*	margin-left: 140px;*/
 }
 
 .third_big_box {
@@ -114,14 +114,12 @@
 	margin: 102px 0;
 }
 
-.section2 {
+/*.section2 {
 	width: 1160px;
 	margin: 0 auto;
-}
+}*/
 
-
-.wraper1 {
-	display: inline-block;
+.wraper2 {
 	position: relative;
 }
 
@@ -134,10 +132,7 @@
 	font-weight: bold;
 }
 
-.wraper2 {
-	display: inline-block;
-	position: relative;
-}
+
 .image-text2 {
 	position: absolute;
     left: 50%;
@@ -153,34 +148,83 @@ footer {
 	background: #A6ADB4;
 }
 
+.footer-box {
+	width: 1160px;
+	margin: 0 auto;
+	/*background: #000;*/
+}
+
 .navigation1 {
 	display: inline-block;
-	width: 486.09px;
 	margin-top: 56px;
 	margin-bottom: 60px;
-	background: yellow;
-	/*padding-left: 143px;*/
+	/*background: blue;*/
 
+
+}
+.navigation1_2 {
+	display: inline-block;
+	margin: 0 80px;
+	margin-top: 56px;
+	margin-bottom: 60px;
+    /*background: blue;*/
 }
 
 
 .nav-ul1 {
 	display: inline-block;
 	vertical-align: top;
-	/*width: 79px;
-	padding: 0 auto;*/
-}
-/*.nav-li1 {
 	padding: 0 auto;
-}*/
+}
+.nav-li1 {
+	
+}
+
+.nav-a {
+	color: #CBD0D3;
+	font-size: 13px;
+}
 
 .logo1 {
-	vertical-align: top;
-	margin-right: 89.1px;
+	
+	margin-right: 89.2px;
+	color: #FFF;
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 56px;
+	margin-bottom: 60px;
+	vertical-align: middle;
 
 }
+
+.footer-text {
+	display: inline-block;
+	font-size: 11px;
+	margin-left: 104.9px;
+	margin-right: 165.2px;
+	color: #CBD0D3;
+	vertical-align: middle;
+}
+
+.icons {
+	display: inline-block;
+	width: 160px;
+	background: red;
+	vertical-align: middle;
+	/*position: fixed;
+	right: 100px;
+	bottom: 100px;*/
+}
+
+.icons-padding1 {
+	margin-right: 32px;
+}
+
+.icons-padding {
+	margin-right:  32px;
+}
+
 body {
-	height: 1000px;
 	background: #F6F8F9;
 
 }
