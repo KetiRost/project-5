@@ -208,8 +208,7 @@ footer {
 
 .icons {
 	display: inline-block;
-	width: 160px;
-	background: red;
+	/*background: red;*/
 	vertical-align: middle;
 	/*position: fixed;
 	right: 100px;
